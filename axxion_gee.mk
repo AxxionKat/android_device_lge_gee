@@ -14,12 +14,12 @@
 # limitations under the License.
 
 # Get the long list of APNs
-$(call inherit-product-if-exists, vendor/cm/config/gsm.mk)
+$(call inherit-product-if-exists, vendor/axxion/config/gsm.mk)
 
 # Inherit from the common Open Source product configuration
 $(call inherit-product, $(SRC_TARGET_DIR)/product/aosp_base_telephony.mk)
 
-PRODUCT_NAME := cm_gee
+PRODUCT_NAME := axxion_gee
 PRODUCT_DEVICE := gee
 PRODUCT_BRAND := Android
 PRODUCT_MODEL := Optimus G
