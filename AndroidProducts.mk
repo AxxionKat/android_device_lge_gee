@@ -15,4 +15,4 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/cm_gee.mk
+    $(LOCAL_DIR)/axxion_gee.mk
