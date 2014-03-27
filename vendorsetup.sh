@@ -14,4 +14,4 @@
 # limitations under the License.
 #
 
-add_lunch_combo cm_gee-userdebug
+add_lunch_combo axxion_gee-userdebug
