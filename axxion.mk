@@ -6,6 +6,10 @@ TARGET_KERNEL_CONFIG := gee_defconfig
 # Inherit from the common Open Source product configuration
 $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 
+# Copy device specific prebuilt files.
+PRODUCT_COPY_FILES += \
+    vendor/axxion/prebuilt/common/bootanimation/768.zip:system/media/bootanimation.zip
+
 # Inherit some common axxion stuff.
 $(call inherit-product, vendor/axxion/config/common_full_phone.mk)
 $(call inherit-product, vendor/axxion/config/common.mk)
